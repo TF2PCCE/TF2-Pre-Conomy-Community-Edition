@@ -1,5 +1,5 @@
 # Team Fortress 2: Pre-Conomy
-Source repository for Team Fortress 2: Pre-Conomy, rebuilt on the Team Fortress 2 code now included in the Source SDK.
+Source repository for TF2 Pre-Conomy: Community Edition, an attempt to revive TF2: Preconomy, A TF2 sourcemod aiming to create an authentic old-school experience.
 
 Note: This is in very early stages!!! Expect crashes or missing weapon reverts.
 
@@ -7,7 +7,7 @@ Note: This is in very early stages!!! Expect crashes or missing weapon reverts.
 
 Clone the repository using the following command:
 
-`git clone https://github.com/bvvth556epic/TF2-Pre-Conomy`
+`git clone https://github.com/TF2PCCE/TF2-Pre-Conomy-Community-Edition/TF2-Pre-Conomy`
 
 ### Windows
 
@@ -21,9 +21,9 @@ Requirements:
 
 Inside the cloned directory, navigate to `src`, run:
 ```bat
-createallprojects.bat
+createtf2pcceprojects.bat
 ```
-This will generate the Visual Studio project `everything.sln` which will be used to build your mod.
+This will generate the Visual Studio project `tf2pcce.sln` which will be used to build your mod.
 
 Then, on the menu bar, go to `Build > Build Solution`, and wait for everything to build.
 
@@ -39,7 +39,7 @@ Requirements:
 
 Inside the cloned directory, navigate to `src`, run:
 ```bash
-./buildallprojects
+./buildtf2pcceprojects
 ```
 
 This will build all the projects related to the SDK and your mods automatically against the Steam Runtime.
@@ -48,15 +48,3 @@ You can then, in the root of the cloned directory, you can navigate to `game` an
 ```bash
 ./tf2pc
 ```
-
-*Mods that are distributed on Steam MUST be built against the Steam Runtime, which the above steps will automatically do for you.*
-
-## Additional Resources
-
-- [Valve Developer Wiki](https://developer.valvesoftware.com/wiki/Source_SDK_2013)
-
-## License
-
-The SDK is licensed to users on a non-commercial basis under the [SOURCE 1 SDK LICENSE](LICENSE), which is contained in the [LICENSE](LICENSE) file in the root of the repository.
-
-For more information, see [Distributing your Mod](#markdown-header-distributing-your-mod).

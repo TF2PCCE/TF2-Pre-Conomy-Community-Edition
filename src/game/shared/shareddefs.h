@@ -271,7 +271,7 @@ inline bool IsIndexIntoPlayerArrayValid( int iIndex )
 
 #define MAX_PLACE_NAME_LENGTH		18
 
-#define MAX_FOV						90
+#define MAX_FOV						130 // Even if it might be inaccurate, TF2 just feels awful when FOV's capped at 90 imo, it's a minor enough change that it shouldn't do THAT much damage
 
 //===================================================================================================================
 // Team Defines
